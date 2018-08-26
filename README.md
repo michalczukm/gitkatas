@@ -24,3 +24,11 @@ Which means - you *might* have problem running them on Windows.
 In this repo you'll also find Dockerfile with git and this repository cloned inside.
 To run it you have to:
 * get `Docker` installed, please visit [docker.com](https://www.docker.com/) to get docker machine
+* run `./run-docker` script or build and run container manually
+
+### Script `./run-docker.sh`
+It builds container from `Dockerfile` as `gitkatas` and run new short lived container with executing bash instantly :fireworks:
+
+**Effect?** Run it and you're in interactive `bash` shell of the container inside the `gitkatas` folder. Ready to do exercises :school_satchel:!
+
+To **exit** from container type *`exit`*  :smile:
